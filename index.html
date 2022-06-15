@@ -14,7 +14,93 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <!-- start menu mobile -->
+    <div class="mobile-menu">
+        <div class="mobile-menu__top f-spacebw">
+            <div class="logo">
+                <img src="/assets/images/theme/logo.svg" alt="logo">
+            </div>
+            <div class="close f-center">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="mobile-menu__content">
+            <div class="mobile__search">
+                <input type="search" name="" id="" placeholder="Search the itrm..." class="search">
+                <i class="fa-solid fa-magnifying-glass click-search" style="color: var(--gray-color)"></i>
+            </div>
+            <div class="nav-menu" style="margin-top: 2rem">
+                <ul class="mobile-list" style="padding: .5rem;">
+                    <li class="list-item f-spacebw">
+                        <a href="">Home</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                    <li class="list-item f-spacebw">
+                        <a href="">Shop</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                    <li class="list-item f-spacebw">
+                        <a href="">Vendors</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                    <li class="list-item f-spacebw">
+                        <a href="">Mega Menu</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                    <li class="list-item f-spacebw">
+                        <a href="">Blog</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                    <li class="list-item f-spacebw">
+                        <a href="">Pages</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                    <li class="list-item f-spacebw">
+                        <a href="">Language</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown" style="display:none;"></ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile__info" style="padding: 1rem; margin: 1rem;">
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Our Location</span>
+                </div>
+                <div class="login">
+                    <i class='bx bx-user' ></i>
+                    <span>Login/Sign up</span>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+8412878373</span>
+                </div>
+            </div>
+            <div class="mobile__socials" style="padding: .8rem;">
+                <h3>Follow Us</h3>
+                <div class="social-icon" style="margin-top: .8rem;">
+                    <ul class="grid-col-5 gap-1">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li> <a href=""><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    </ul>     
+                </div>             
+            </div>
+        </div>
+    </div>
+
+    <!-- END menu mobile -->
     <div class="wrapper">
+        
 
         <!-- Start Header -->
         <div class="header">
@@ -54,6 +140,13 @@
                         <!-- </div> -->
                     </div>
 
+                    <!-- 
+                        ======== MOBILE MENU ========
+                     -->
+                     <div class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                     </div>
+
                     <div class="header__middle-right gap-1">
                         <div class="child gap-1">
                             <i class="fa-solid fa-arrows-rotate count-num"></i>
@@ -80,7 +173,7 @@
                     <div class="header__bottom-left f-center">
                         <div class="main-categories">
                             <i class='bx bx-category-alt' ></i>
-                            <b>Browser All Categories</b>
+                            <b>All Categories</b>
                             <i class="fa-solid fa-angle-down"></i>
                         </div>
                     </div>
@@ -378,10 +471,10 @@
             <!-- Start Popular Products -->
             <div class="popular-products">
                 <div class="container">
-                    <div class="popular-products-title grid-10-parent">
+                    <div class="popular-products-title f-spacebw">
                         <h3>Popular Products</h3>
-                        <ul class="menu">
-                            <li><a href="">All</a></li>
+                        <ul class="menu gap-4">
+                            <li><a href=""  class="active">All</a></li>
                             <li><a href="">Milks & Dairies</a></li>
                             <li><a href="">Coffes & Teas</a></li>
                             <li><a href="">Pet Foods</a></li>
@@ -431,7 +524,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -488,7 +581,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -545,7 +638,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -602,7 +695,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -659,7 +752,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -716,7 +809,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -773,7 +866,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -830,7 +923,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -887,7 +980,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -944,7 +1037,7 @@
                                     <div class="product-shop">
                                         <span>By <a href="">Stouffer</a></span>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -973,7 +1066,7 @@
             <!-- Start Daily Best Sells -->
             <div class="daily-best-sells">
                 <div class="container">
-                  <div class="daily-best-sells__top grid-10-parent">
+                  <div class="daily-best-sells__top f-spacebw">
                       <div class="title">
                           <h3>Daily Best Sells</h3>
                       </div>
@@ -1032,7 +1125,7 @@
                                             <div class="product-rating"></div>
                                         </div>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -1091,7 +1184,7 @@
                                             <div class="product-rating"></div>
                                         </div>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -1150,7 +1243,7 @@
                                             <div class="product-rating"></div>
                                         </div>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -1209,7 +1302,7 @@
                                             <div class="product-rating"></div>
                                         </div>
                                     </div>
-                                    <div class="product-bottom">
+                                    <div class="product-bottom f-spacebw">
                                         <div class="product-price">
                                             <div class="product-price__real">
                                                 <span>$52.86</span>
@@ -1252,7 +1345,7 @@
             <!-- Start Deals Of The Day -->
             <div class="deals-of-the-day">
                 <div class="container">
-                    <div class="dealsof-title grid-8-parent">
+                    <div class="dealsof-title f-spacebw">
                         <h3>Deals Of The Day</h3>
                         <a href="">
                             All Deals
@@ -1264,15 +1357,13 @@
                             <div class="item">
                                 <div class="item-wrap">
                                     <div class="item-img-action-wrap">
-                                        <div class="item-image">
-                                            <a href="">
-                                                <img src="./assets/images/dealsof/banner-6.png" alt="">
-                                            </a>
-                                        </div>
+                                        <a href="" class="item-image">
+                                            <img src="./assets/images/dealsof/banner-6.png" alt="">
+                                        </a>
                                     </div>
                                     <div class="item-content-wrap">
                                         <div class="dealsof-countdown-wrap">
-                                            <div class="dealsof-countdown">
+                                            <div class="dealsof-countdown f-center">
                                                 <span class="dealsof-countdown-time dealsof-countdown__day">
                                                     <span>1574</span>
                                                     <span>Days</span>
@@ -1331,15 +1422,13 @@
                             <div class="item">
                                 <div class="item-wrap">
                                     <div class="item-img-action-wrap">
-                                        <div class="item-image">
-                                            <a href="">
-                                                <img src="./assets/images/dealsof/banner-6.png" alt="">
-                                            </a>
-                                        </div>
+                                        <a href="" class="item-image">
+                                            <img src="./assets/images/dealsof/banner-6.png" alt="">
+                                        </a>
                                     </div>
                                     <div class="item-content-wrap">
                                         <div class="dealsof-countdown-wrap">
-                                            <div class="dealsof-countdown">
+                                            <div class="dealsof-countdown f-center">
                                                 <span class="dealsof-countdown-time dealsof-countdown__day">
                                                     <span>1574</span>
                                                     <span>Days</span>
@@ -1398,15 +1487,13 @@
                             <div class="item">
                                 <div class="item-wrap">
                                     <div class="item-img-action-wrap">
-                                        <div class="item-image">
-                                            <a href="">
-                                                <img src="./assets/images/dealsof/banner-6.png" alt="">
-                                            </a>
-                                        </div>
+                                        <a href="" class="item-image">
+                                            <img src="./assets/images/dealsof/banner-6.png" alt="">
+                                        </a>
                                     </div>
                                     <div class="item-content-wrap">
                                         <div class="dealsof-countdown-wrap">
-                                            <div class="dealsof-countdown">
+                                            <div class="dealsof-countdown f-center">
                                                 <span class="dealsof-countdown-time dealsof-countdown__day">
                                                     <span>1574</span>
                                                     <span>Days</span>
@@ -1465,15 +1552,13 @@
                             <div class="item">
                                 <div class="item-wrap">
                                     <div class="item-img-action-wrap">
-                                        <div class="item-image">
-                                            <a href="">
-                                                <img src="./assets/images/dealsof/banner-6.png" alt="">
-                                            </a>
-                                        </div>
+                                        <a href="" class="item-image">
+                                            <img src="./assets/images/dealsof/banner-6.png" alt="">
+                                        </a>
                                     </div>
                                     <div class="item-content-wrap">
                                         <div class="dealsof-countdown-wrap">
-                                            <div class="dealsof-countdown">
+                                            <div class="dealsof-countdown f-center">
                                                 <span class="dealsof-countdown-time dealsof-countdown__day">
                                                     <span>1574</span>
                                                     <span>Days</span>
